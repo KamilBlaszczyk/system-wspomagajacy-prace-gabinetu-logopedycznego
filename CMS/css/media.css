@@ -1,0 +1,185 @@
+@media (max-width: 1199px) {
+	.afficite-left .glyphicon, .afficite-left img{
+		display: none;
+	}
+
+	.afficite-left p{
+		margin: 0;
+	}
+
+	header .row > div:nth-child(1) {
+		background: #191f42;
+	}
+
+	.carousel-caption h3{
+		margin-top: -250px;
+	}
+}
+
+@media (max-width: 1125px) {
+	.carousel-caption h3{
+		margin-top: -200px;
+	}
+}
+
+@media (max-width: 991px) {
+	.carousel{
+		padding-top: 100px;
+	}
+
+	.navbar-nav{
+		float: right;
+	}
+}
+
+@media (max-width: 796px) {
+	.carousel-caption h3{
+		margin-top: -180px;
+	}
+}
+
+/* zmiana breakpoint pojawianie sie hamburgera menu
+@media (max-width: 991px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-left,.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-nav {
+		float: none !important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.collapse.in{
+		display:block !important;
+	}
+} */
+
+@media (max-width: 767px) {
+	.navbar-nav{
+		float: none;
+	}
+
+	.navbar-brand{
+		padding: 10px 15px;
+	}
+
+	.navbar-toggle{
+		margin-top: 30px;
+	}
+
+	header{
+		height: 100px;
+	}
+
+	.navbar-collapse{
+		border: none;
+		margin-top: 30px;
+		padding-left: 30px;
+		max-height: 280px;
+		overflow: scroll;
+	}
+
+	.nav > li{
+		margin-top: -20px;
+	}
+
+	footer{
+		padding-top: 100px;
+		background: #191f42;
+		color: #fff;
+		text-align: center !important;
+		margin: 0;
+	}
+
+	.line{
+		background: #fff;
+		width: 70px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+
+	.afficite-left, .footer-bg-img, .footer-bg, .footer-author {
+		margin: 0;
+		padding: 0;
+		background: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.afficite-left p{
+		width: 100%;
+	}
+
+	.afficite-left .phone, .afficite-left .mail, .afficite-left .fb{
+		float: none;
+		margin-top: 10px;
+	}
+
+	.footer-bg{
+		width: 100%;
+	}
+
+	.footer-author {
+		margin: auto;
+		width: 200px;
+		margin-top: 20px;
+		float: none;
+	}
+
+	.footer-author img{
+		margin: auto;
+		width: 112px;
+		float: none;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (orientation:landscape){
+	/*body{
+		overflow: hidden;
+	}*/
+
+	.landscape{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.7);
+		position: absolute;
+		left:0;
+		top:0;
+		z-index: 9999999999;
+		overflow: hidden;
+		color: #fff;
+	}
+}
+
+@media screen and (orientation:portrait){
+	.landscape{
+		display: none;
+	}
+}
